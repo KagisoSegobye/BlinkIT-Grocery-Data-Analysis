@@ -35,10 +35,7 @@ Delivery delays: Certain regions consistently show higher late deliveries, impac
 
 Discount impact: Products with promotions see ~35% higher sales volume but reduced profit margins by ~18%.
 
-BlinkIT Overview.png
-
-
-!https://github.com/KagisoSegobye/BlinkIT-Grocery-Data-Analysis/commit/8aaa7f9243852d03ac8137860a6c238a8f2c6199
+![Alt text](URL_or_relative_path)
 
 ## 4. Insights Deep Dive
 🛒 Product Performance
