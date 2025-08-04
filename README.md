@@ -4,7 +4,7 @@ BlinkIT, a quick-commerce grocery delivery service, operates in a highly competi
 
 This analysis uses raw transaction-level data from the company’s order management system and is supplemented by a Power BI dashboard for interactive visualization and stakeholder engagement.
 
-##2. Data Structure Overview
+## 2. Data Structure Overview
 The dataset consists of multiple fields representing transactions, customer behaviors, product attributes, and operational metrics. Key columns include:
 
 Order ID, Customer ID: Unique identifiers for each transaction and customer
@@ -19,7 +19,7 @@ Payment Type, Discounts, Profit: Financial and promotional data
 
 The data was cleaned and modeled to create key relationships and hierarchies. Time intelligence and DAX measures were developed in Power BI to enable slicing and trend analyses by region, category, and time.
 
-##3. Executive Summary
+## 3. Executive Summary
 Key high-level findings:
 
 Top-selling categories: Fresh fruits & vegetables and dairy products dominate revenue share.
@@ -32,7 +32,7 @@ Delivery delays: Certain regions consistently show higher late deliveries, impac
 
 Discount impact: Products with promotions see ~35% higher sales volume but reduced profit margins by ~18%.
 
-##4. Insights Deep Dive
+## 4. Insights Deep Dive
 🛒 Product Performance
 Top 10 SKUs contribute over 40% of total revenue.
 
@@ -55,7 +55,7 @@ Monthly growth plateaued after Q2, with slight seasonal upticks.
 
 Delivery window optimization opportunities were identified based on time-of-day trends.
 
-##5. Recommendations
+## 5. Recommendations
 Based on the analysis:
 
 Optimize SKU Portfolio: Eliminate or bundle slow-moving items and promote high-margin items.
