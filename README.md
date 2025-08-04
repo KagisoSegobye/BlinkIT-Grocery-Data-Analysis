@@ -1,86 +1,70 @@
 # BlinkIT-Grocery-Data-Analysis
-##1. Background and Overview
-BlinkIT, a quick-commerce grocery delivery service, operates in a highly competitive market that thrives on efficiency, customer satisfaction, and accurate forecasting. This project analyzes BlinkIT's operational and customer data to identify performance trends, optimize decision-making, and uncover revenue growth opportunities.
 
-This analysis uses raw transaction-level data from the company’s order management system and is supplemented by a Power BI dashboard for interactive visualization and stakeholder engagement.
+## 1. Background and Overview
+BlinkIT, a fast-growing quick-commerce platform, aims to streamline grocery delivery with an emphasis on customer satisfaction and operational efficiency. This Power BI dashboard project provides a detailed analysis of BlinkIT’s sales performance, product segmentation, and outlet dynamics using integrated KPIs and advanced data visualizations.
 
-An interactive PowerBI dashboard can be downloaded here [here](https://github.com/KagisoSegobye/BlinkIT-Grocery-Data-Analysis/blob/main/blinkit.pbix)
-
+The purpose of the dashboard is to support decision-making across product planning, outlet optimization, and marketing by highlighting key trends and anomalies within the business.
 
 ## 2. Data Structure Overview
-The dataset consists of multiple fields representing transactions, customer behaviors, product attributes, and operational metrics. Key columns include:
+The dataset powering this dashboard includes item-level and outlet-level data enriched with sales and customer satisfaction metrics. Core data columns:
 
--Order ID, Customer ID: Unique identifiers for each transaction and customer
+Item-Level Fields:
 
--Product Name, Category: Granular item-level data
+Item Identifier, Item Type, Item Fat Content, Item Weight, Item Visibility, Sales, Rating
 
--Quantity, Price, Total Value: Purchase metrics
+Outlet-Level Fields:
 
--Order Date, Delivery Status, Region: Operational timeline and logistics
+Outlet Identifier, Outlet Type, Outlet Size, Outlet Location Type, Establishment Year
 
--Payment Type, Discounts, Profit: Financial and promotional data
-
-The data was cleaned and modeled to create key relationships and hierarchies. Time intelligence and DAX measures were developed in Power BI to enable slicing and trend analyses by region, category, and time.
+These dimensions are combined to provide aggregated views and drilldowns across time, geography, and product characteristics. Data transformations and relationships were modeled in Power BI for responsive filtering and accurate metric calculations.
 
 ## 3. Executive Summary
-Key high-level findings:
+The BlinkIT dashboard reveals:
 
--Top-selling categories: Fresh fruits & vegetables and dairy products dominate revenue share.
+Total Sales: $1.20M
 
--Customer frequency: A small cohort of loyal customers contributes a significant percentage of monthly revenue.
+Average Sale: $141
 
--Order timing: Peak order volume occurs during weekends and late evenings.
+Total Items Sold: 8,523 unique entries
 
--Delivery delays: Certain regions consistently show higher late deliveries, impacting customer satisfaction.
+Average Rating: 3.9 / 5
 
--Discount impact: Products with promotions see ~35% higher sales volume but reduced profit margins by ~18%.
-
-![Alt text](https://github.com/KagisoSegobye/BlinkIT-Grocery-Data-Analysis/blob/2a636b37e425bd9d38943cc399aee788353b8cb8/BlinkIT%20Overview.png)
-
+These KPIs indicate a robust sales base with room for optimization in specific product segments and outlet types.
 
 ## 4. Insights Deep Dive
-🛒 Product Performance
-Top 10 SKUs contribute over 40% of total revenue.
+🥗 Product Preferences
+Low-fat items outperform regular-fat items in sales, suggesting health-conscious purchasing behavior.
 
-Low-performing items occupy inventory without moving for more than 30 days on average.
+Top categories include fruits, vegetables, and snack foods.
 
-Bundled items tend to outperform individual purchases in repeat orders.
+🏪 Outlet Characteristics
+Medium-sized outlets in Tier 3 locations show the highest overall profitability.
 
-🌍 Regional Analysis
--North and West zones contribute ~65% of total revenue but also report the highest delivery failure rates.
+Supermarkets dominate in total sales volume, while grocery stores excel in item visibility.
 
--South zone shows better operational efficiency and higher repeat purchases per customer.
+📈 Trends
+Outlet establishment trends show consistent expansion from 2012 to 2022.
 
-📈 Profitability Insights
-Items with a discount >15% show a drop in margin beyond sustainable thresholds.
-
-Cash on Delivery (COD) orders have a slightly higher cancellation rate (~8%) than prepaid ones.
-
-📅 Time-based Trends
-Monthly growth plateaued after Q2, with slight seasonal upticks.
-
-Delivery window optimization opportunities were identified based on time-of-day trends.
+Item visibility and average ratings are strongly correlated with higher sales in smaller, focused outlets.
 
 ## 5. Recommendations
-Based on the analysis:
+Promote Low-Fat Product Lines: Expand marketing and inventory for health-conscious items.
 
--Optimize SKU Portfolio: Eliminate or bundle slow-moving items and promote high-margin items.
+Invest in Tier 3, Medium-Sized Outlets: High ROI potential based on sales-per-square-foot metrics.
 
--Revise Discount Strategy: Cap high-discount offers to ≤15% for non-essential products to retain margins.
+Diversify Snack and Produce Offerings: These categories show consistent performance and consumer interest.
 
--Improve Logistics in Key Regions: Invest in local partnerships or route optimization in underperforming regions.
+Support Grocery Stores with Visibility Tools: Enhance product placement and digital visibility in smaller outlets.
 
--Incentivize Prepaid Orders: Promote prepaid models with loyalty points to reduce cancellations.
+Continue Expansion: Historical data supports the success of continued outlet growth, particularly in underserved regions.
 
--Enhance Weekend Ops: Increase delivery staff during peak order windows (Friday to Sunday evenings).
+⚠️ Caveats and Assumptions
+Customer demographics were not included, limiting segmentation accuracy.
 
--Customer Retention Program: Develop a tiered loyalty program based on order frequency and spend.
+Sales figures represent gross values; operational costs or returns are not considered.
 
-📌 Caveats and Assumptions
-Incomplete Customer Demographics: The dataset lacks detailed demographic data, limiting behavioral segmentation.
+Item ratings are assumed to be consistent and unbiased.
 
-Seasonality Limitations: Historical data may not cover full seasonal cycles for robust trend analysis.
+Outlet size and tier data are interpreted as static and may not reflect recent changes.
 
-Delivery Delay Attribution: Assumes delays are primarily logistic; does not account for external factors (e.g., weather).
-
-Profit Calculations: Profit margins are estimated using available pricing and discount data and may exclude overhead costs.
+Inventory turnover and stockouts are not captured in this dataset, which may affect visibility metrics.
