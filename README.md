@@ -5,6 +5,8 @@ BlinkIT, a fast-growing quick-commerce platform, aims to streamline grocery deli
 
 The purpose of the dashboard is to support decision-making across product planning, outlet optimization, and marketing by highlighting key trends and anomalies within the business.
 
+An interactive PowerBI dashboard can be downloaded [](https://github.com/KagisoSegobye/BlinkIT-Grocery-Data-Analysis/blob/c8e9ba6a911972c37725a7878af981c85225377c/blinkit.pbix)
+
 ## 2. Data Structure Overview
 The dataset powering this dashboard includes item-level and outlet-level data enriched with sales and customer satisfaction metrics. Core data columns:
 
