@@ -11,11 +11,11 @@ BlinkIT, a fast-growing quick-commerce platform, aims to streamline grocery deli
 
 It uses integrated KPIs and advanced data visualizations to support decision-making in:
 
-Product planning
+* Product planning
 
-Outlet optimization
+* Outlet optimization
 
-Marketing strategies
+* Marketing strategies
 
 📥 An interactive Power BI dashboard can be downloaded [here](https://github.com/KagisoSegobye/BlinkIT-Grocery-Data-Analysis/blob/c8e9ba6a911972c37725a7878af981c85225377c/blinkit.pbix)
 
@@ -24,70 +24,51 @@ The dataset combines item-level and outlet-level records enriched with sales and
 
 🧾 Item-Level Fields:
 
-Item Identifier
-
-Item Type
-
-Item Fat Content
-
-Item Weight
-
-Item Visibility
-
-Sales
-
-Rating
+* Item Identifier
+* Item Type
+* Item Fat Content
+* Item Weight
+* Item Visibility
+* Sales
+* Rating
 
 🏬 Outlet-Level Fields:
 
-Outlet Identifier
-
-Outlet Type
-
-Outlet Size
-
-Outlet Location Type
-
-Establishment Year
+* Outlet Identifier
+* Outlet Type
+* Outlet Size
+* Outlet Location Type
+* Establishment Year
 
 These dimensions are merged to create drillable visual insights across:
 
-Time
-
-Product type
-
-Store configuration
-
-Location
+* Time
+* Product type
+* Store configuration
+* Location
 
 ## 3. 📊 Executive Summary
 Key performance indicators from the dashboard reveal:
 
-Total Sales: $1.20M
-
-Average Sale: $141
-
-Total Items Sold: 8,523 unique entries
-
-Average Rating: 3.9 / 5
+* Total Sales: $1.20M
+* Average Sale: $141
+* Total Items Sold: 8,523 unique entries
+* Average Rating: 3.9 / 5
 
 These values show a strong revenue base with identifiable areas for growth and operational refinement.
 
 ## 4. 🔍 Insights Deep Dive
 🥗 Product Preferences
-Low-fat items outperform regular-fat items, suggesting health-conscious consumer trends.
-
-Top-selling categories: fruits, vegetables, and snack foods.
+* Low-fat items outperform regular-fat items, suggesting health-conscious consumer trends.
+* Top-selling categories: fruits, vegetables, and snack foods.
 
 🏪 Outlet Characteristics
-Medium-sized outlets in Tier 3 locations show the highest profitability.
-
-Supermarkets lead in total sales, while grocery stores have better item visibility.
+* Medium-sized outlets in Tier 3 locations show the highest profitability.
+* Supermarkets lead in total sales, while grocery stores have better item visibility.
 
 📈 Trends
-Outlet establishment has consistently increased between 2012 and 2022.
-
-Items with higher visibility and customer ratings tend to drive more sales, especially in compact outlets.
+* Outlet establishment has consistently increased between 2012 and 2022.
+* Items with higher visibility and customer ratings tend to drive more sales, especially in compact outlets.
 
 ## 5. ✅ Recommendations
 Promote Low-Fat Product Lines
