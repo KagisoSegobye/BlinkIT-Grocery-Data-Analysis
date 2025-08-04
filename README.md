@@ -3,7 +3,7 @@
 ## 1. 📌 Background and Overview
 BlinkIT, a fast-growing quick-commerce platform, aims to streamline grocery delivery with an emphasis on customer satisfaction and operational efficiency. This Power BI dashboard project provides a detailed analysis of BlinkIT’s:
 
-Sales performance
+*-Sales performance  
 
 Product segmentation
 
