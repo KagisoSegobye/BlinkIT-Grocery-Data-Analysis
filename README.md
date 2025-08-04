@@ -4,6 +4,9 @@ BlinkIT, a quick-commerce grocery delivery service, operates in a highly competi
 
 This analysis uses raw transaction-level data from the company’s order management system and is supplemented by a Power BI dashboard for interactive visualization and stakeholder engagement.
 
+An interactive PowerBI dashboard can be downloaded here [here](https://github.com/KagisoSegobye/BlinkIT-Grocery-Data-Analysis/blob/main/blinkit.pbix)
+
+
 ## 2. Data Structure Overview
 The dataset consists of multiple fields representing transactions, customer behaviors, product attributes, and operational metrics. Key columns include:
 
