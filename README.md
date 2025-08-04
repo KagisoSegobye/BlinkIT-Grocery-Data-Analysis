@@ -35,6 +35,10 @@ Delivery delays: Certain regions consistently show higher late deliveries, impac
 
 Discount impact: Products with promotions see ~35% higher sales volume but reduced profit margins by ~18%.
 
+[Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded here](url)
+
+!https://github.com/KagisoSegobye/BlinkIT-Grocery-Data-Analysis/commit/8aaa7f9243852d03ac8137860a6c238a8f2c6199
+
 ## 4. Insights Deep Dive
 🛒 Product Performance
 Top 10 SKUs contribute over 40% of total revenue.
