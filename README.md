@@ -19,6 +19,8 @@ It uses integrated KPIs and advanced data visualizations to support decision-mak
 
 📥 An interactive Power BI dashboard can be downloaded [here](https://github.com/KagisoSegobye/BlinkIT-Grocery-Data-Analysis/blob/c8e9ba6a911972c37725a7878af981c85225377c/blinkit.pbix)
 
+![Blink It Dashboard](https://github.com/KagisoSegobye/BlinkIT-Grocery-Data-Analysis/blob/bcdd047d8346085d010d6dea4ff06ea45beaa44e/BlinkIT%20Overview.png)
+
 ## 2. 🧱 Data Structure Overview
 The dataset combines item-level and outlet-level records enriched with sales and customer satisfaction metrics.
 
